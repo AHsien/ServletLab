@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>寵物類型大調查</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+	<form action="pet" method="post">
+		姓名：<input type="text" name="user" value=""><br>
+		郵件：<input type="text" name="email" value=""><br>
+		你喜愛的寵物代表：<br>
+		<!-- multiple 屬性可以使用 command 鍵 複選 -->
+		<select name="type" size="6" multiple>
+			<option value="貓">貓</option>
+			<option value="狗">狗</option>
+			<option value="魚">魚</option>
+			<option value="鳥">鳥</option>
+		</select><br>
+		<input type="submit" value="送出">
+	</form>
+</body>
+</html>
